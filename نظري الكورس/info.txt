@@ -31,3 +31,16 @@
     PHP supports a wide range of databases
     PHP is free. Download it from the official PHP resource: www.php.net
     PHP is easy to learn and runs efficiently on the server side
+*
+    The default file extension for PHP files is ".php".
+    start tag:  
+        end tag:
+        <?php ?>
+    PHP statements end with a semicolon (;).
+    PHP Case Sensitivity
+        1-(if, else, while, echo), classes, functions, and user-defined functions are not case-sensitive.
+        2-However; all variable names are case-sensitive!
+*Comments in PHP
+    Comments can be used to:
+    Let others understand your code
+    Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
