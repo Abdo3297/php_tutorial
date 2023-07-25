@@ -99,3 +99,36 @@ PHP supports the following data types:
         NaN is used for impossible mathematical operations.
         PHP has the following functions to check if a value is not a number:
         is_nan()
+*PHP Constants
+    A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
+    A valid constant name starts with a letter or underscore (no $ sign before the constant name).
+    Note: Unlike variables, constants are automatically global across the entire script.
+    define(name, value, case-insensitive)
+*PHP Operators
+    Operators are used to perform operations on variables and values.
+    PHP divides the operators in the following groups:
+        Arithmetic operators
+        Assignment operators
+        Comparison operators
+        Increment/Decrement operators
+        Logical operators
+        String operators
+        Array operators
+        Conditional assignment operators
+*PHP Conditional Statements
+    Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.
+    In PHP we have the following conditional statements:
+    if statement - executes some code if one condition is true
+    if...else statement - executes some code if a condition is true and another code if that condition is false
+    if...elseif...else statement - executes different codes for more than two conditions
+    switch statement - selects one of many blocks of code to be executed
+*PHP Loops
+    Often when you write code, you want the same block of code to run over and over again a certain number of times. So, instead of adding several almost equal code-lines in a script, we can use loops.
+    Loops are used to execute the same block of code again and again, as long as a certain condition is true.
+    In PHP, we have the following loop types:
+    while - loops through a block of code as long as the specified condition is true
+    do...while - loops through a block of code once, and then repeats the loop as long as the specified condition is true
+    for - loops through a block of code a specified number of times
+    foreach - loops through a block of code for each element in an array
+The break statement can also be used to jump out of a loop.
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
