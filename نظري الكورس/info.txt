@@ -74,8 +74,28 @@ PHP supports the following data types:
     NULL
     Resource
 *string function
-1-The PHP strlen() function returns the length of a string.
-2-The PHP str_word_count() function counts the number of words in a string.
-3-The PHP strrev() function reverses a string.
-4-The PHP strpos() function searches for a specific text within a string. If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.
-5-The PHP str_replace() function replaces some characters with some other characters in a string.
+    1-The PHP strlen() function returns the length of a string.
+    2-The PHP str_word_count() function counts the number of words in a string.
+    3-The PHP strrev() function reverses a string.
+    4-The PHP strpos() function searches for a specific text within a string. If a match is found, the function returns the character position of the first match. If no match is found, it will return FALSE.
+    5-The PHP str_replace() function replaces some characters with some other characters in a string.
+*PHP Integers
+    2, 256, -256, 10358, -179567 are all integers.
+    An integer is a number without any decimal part.
+    An integer data type is a non-decimal number between -2147483648 and 2147483647 in 32 bit systems, and between -9223372036854775808 and 9223372036854775807 in 64 bit systems. A value greater (or lower) than this, will be stored as float, because it exceeds the limit of an integer.
+    Note: Another important thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the operands is a float (2.5).
+    Here are some rules for integers:
+        An integer must have at least one digit
+        An integer must NOT have a decimal point
+        An integer can be either positive or negative
+        Integers can be specified in three formats: decimal (10-based), hexadecimal (16-based - prefixed with 0x) or octal (8-based - prefixed with 0)
+        PHP Infinity
+    A numeric value that is larger than PHP_FLOAT_MAX is considered infinite.
+        PHP has the following functions to check if a numeric value is finite or infinite:
+        is_finite()
+        is_infinite()
+    PHP NaN
+        NaN stands for Not a Number.
+        NaN is used for impossible mathematical operations.
+        PHP has the following functions to check if a value is not a number:
+        is_nan()
