@@ -44,3 +44,21 @@
     Comments can be used to:
     Let others understand your code
     Remind yourself of what you did - Most programmers have experienced coming back to their own work a year or two later and having to re-figure out what they did. Comments can remind you of what you were thinking when you wrote the code
+*variable
+    Think of variables as containers for storing data.
+    Rules for PHP variables:
+        A variable starts with the $ sign, followed by the name of the variable
+        A variable name must start with a letter or the underscore character
+        A variable name cannot start with a number
+        A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+        Variable names are case-sensitive ($age and $AGE are two different variables)
+    PHP is a Loosely Typed Language
+        PHP automatically associates a data type to the variable, depending on its value.
+    PHP Variables Scope
+        PHP has three different variable scopes:
+            local
+            global
+            static
+        A variable declared outside a function has a GLOBAL SCOPE and can only be accessed outside a function
+        A variable declared within a function has a LOCAL SCOPE and can only be accessed within that function:
+
