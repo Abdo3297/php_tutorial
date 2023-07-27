@@ -158,3 +158,6 @@ PHP supports the following data types:
     $_ENV
     $_COOKIE
     $_SESSION
+*$exp = "/w3schools/i";
+    In the example above, / is the delimiter, w3schools is the pattern that is being searched for, and i is a modifier that makes the search case-insensitive.
+    The delimiter can be any character that is not a letter, number, backslash or space. The most common delimiter is the forward slash (/), but when your pattern contains forward slashes it is convenient to choose other delimiters such as # or ~.
