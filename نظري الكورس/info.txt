@@ -161,3 +161,22 @@ PHP supports the following data types:
 *$exp = "/w3schools/i";
     In the example above, / is the delimiter, w3schools is the pattern that is being searched for, and i is a modifier that makes the search case-insensitive.
     The delimiter can be any character that is not a letter, number, backslash or space. The most common delimiter is the forward slash (/), but when your pattern contains forward slashes it is convenient to choose other delimiters such as # or ~.
+
+*Get a Date
+The required format parameter of the date() function specifies how to format the date (or time).
+Here are some characters that are commonly used for dates:
+    d - Represents the day of the month (01 to 31)
+    m - Represents a month (01 to 12)
+    Y - Represents a year (in four digits)
+    l (lowercase 'L') - Represents the day of the week
+    Other characters, like"/", ".", or "-" can also be inserted between the characters to add additional formatting.
+*Get a Time
+Here are some characters that are commonly used for times:
+    H - 24-hour format of an hour (00 to 23)
+    h - 12-hour format of an hour with leading zeros (01 to 12)
+    i - Minutes with leading zeros (00 to 59)
+    s - Seconds with leading zeros (00 to 59)
+    a - Lowercase Ante meridiem and Post meridiem (am or pm)
+*The include and require statements are identical, except upon failure:
+    require will produce a fatal error (E_COMPILE_ERROR) and stop the script
+    include will only produce a warning (E_WARNING) and the script will continue
