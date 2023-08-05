@@ -199,3 +199,21 @@ Why Use Filters?
         Web services data
         Server variables
         Database query results
+
+*What is JSON?
+JSON stands for JavaScript Object Notation, and is a syntax for storing and exchanging data.
+Since the JSON format is a text-based format, it can easily be sent to and from a server, and used as a data format by any programming language.
+
+1-
+    PHP - json_encode()
+    The json_encode() function is used to encode a value to JSON format.
+2-
+    PHP - json_decode()
+    The json_decode() function is used to decode a JSON object into a PHP object or an associative array.
+
+
+*What is an Exception?
+    An exception is an object that describes an error or unexpected behaviour of a PHP script.
+    Exceptions are thrown by many PHP functions and classes.
+    User defined functions and classes can also throw exceptions.
+    Exceptions are a good way to stop a function when it comes across data that it cannot use.
