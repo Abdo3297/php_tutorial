@@ -180,3 +180,22 @@ Here are some characters that are commonly used for times:
 *The include and require statements are identical, except upon failure:
     require will produce a fatal error (E_COMPILE_ERROR) and stop the script
     include will only produce a warning (E_WARNING) and the script will continue
+
+*What is a Cookie?
+A cookie is often used to identify a user. A cookie is a small file that the server embeds on the user's computer. Each time the same computer requests a page with a browser, it will send the cookie too. With PHP, you can both create and retrieve cookie values.
+    $cookie_name = "user";
+    $cookie_value = "John Doe";
+    setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+Note: The setcookie() function must appear BEFORE the <html> tag.
+
+
+*PHP Filters
+Validating data = Determine if the data is in proper form.
+Sanitizing data = Remove any illegal character from the data.
+Why Use Filters?
+    Many web applications receive external input. External input/data can be:
+        User input from a form
+        Cookies
+        Web services data
+        Server variables
+        Database query results
